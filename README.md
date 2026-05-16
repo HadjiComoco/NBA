@@ -1,17 +1,17 @@
-# 🏀 Application de suivi des Playoffs NBA 2024-2025
+# Application de suivi des Playoffs NBA 2024-2025
 
 > Projet universitaire réalisé dans le cadre du cours de Base de Données 2 — L2 MIASHS  
 > Hadji HAMADA — Année universitaire 2024-2025
 
 ---
 
-## 📋 Description
+## Description
 
 Application de bureau développée sous **Microsoft Access** permettant de gérer et consulter les données des **Playoffs NBA 2024-2025**. Elle s'adresse aux passionnés de basketball souhaitant explorer les statistiques des équipes, joueurs et matchs de la phase finale de la saison NBA.
 
 ---
 
-## 🗃️ Base de données
+##  Base de données
 
 ### Modèle Conceptuel (MCD)
 - **3 entités** : `Joueur`, `Equipe`, `Match`
@@ -27,14 +27,14 @@ Application de bureau développée sous **Microsoft Access** permettant de gére
 | `Joue` | #id_joueur, #id_match (CP composée), points, note |
 
 ### Données
-- 🏀 **16 équipes** qualifiées aux Playoffs 2025
-- 👤 **160 joueurs** (10 titulaires par équipe — roster officiel NBA)
-- 🏟️ **30 matchs** du 1er tour des Playoffs 2025
-- 📊 **120+ performances** de joueurs (table Joue)
+-  **16 équipes** qualifiées aux Playoffs 2025
+-  **160 joueurs** (10 titulaires par équipe — roster officiel NBA)
+-  **30 matchs** du 1er tour des Playoffs 2025
+-  **120+ performances** de joueurs (table Joue)
 
 ---
 
-## 💻 Fonctionnalités de l'application
+##  Fonctionnalités de l'application
 
 | Formulaire / État | Type | Description |
 |---|---|---|
@@ -48,7 +48,7 @@ Application de bureau développée sous **Microsoft Access** permettant de gére
 
 ---
 
-## 🛠️ Technologies utilisées
+##  Technologies utilisées
 
 - **Microsoft Access** — Création des tables, relations, formulaires et états
 - **SQL** — Requêtes de sélection, jointures, agrégats (SUM, AVG, GROUP BY)
@@ -57,7 +57,7 @@ Application de bureau développée sous **Microsoft Access** permettant de gére
 
 ---
 
-## 📁 Structure du projet
+##  Structure du projet
 
 ```
 ProjetNBA/
@@ -69,7 +69,7 @@ ProjetNBA/
 
 ---
 
-## 🚀 Installation et utilisation
+##  Installation et utilisation
 
 1. **Cloner le dépôt**
 ```bash
@@ -84,7 +84,7 @@ git clone https://github.com/username/ProjetNBA.git
    - Le formulaire `F_Accueil` s'ouvre automatiquement
    - Naviguer via les boutons du menu
 
-> ⚠️ **Prérequis** : Microsoft Access 2016+ (Windows uniquement)
+>  **Prérequis** : Microsoft Access 2016+ (Windows uniquement)
 
 ---
 
